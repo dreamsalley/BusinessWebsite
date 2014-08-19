@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* sylesheet start */
+
+body {
+		font-family: arial, sans-serif;
+	}
+
+/* TYPE */
+
+h5 {
+		font-variant: small-caps;
+		font-family: arial, sans-serif;
+		font-weight: 100;
+		letter-spacing: .1em;
+		font-size: small;
+	}
+	
+	.imgaes h3 {
+		font-variant: small-caps;
+		font-family: arial, sans-serif;
+		font-weight: 600;
+		font-size: 1em;
+		background-color: #fff;
+		padding: 2px 2px ;
+	}
+	
+	/* LINKS */
+
+	a {
+		text-decoration: none;
+		color: white;
+	}
+	
+	a:hover {
+		color: black;
+		text-decoration: underline;
+	}
+
+	/* HEADER */
+
+	header {
+		width: 992px;
+		height: 85px;
+		margin: auto;
+		padding-top: 15px;
+		position: relative;
+	}
+
+	/* ADJUST LOGO ATTRIBUTES LATER */
+	
+	.logo {
+		padding-top: 10px;
+		position: absolute;
+		left: 0;
+		top: 0;
+
+	}
+
+
+/* FORM */
+
+.newsletter {
+		width: 40%;
+		position: absolute;
+		right: 0;
+		top: 30px;
+	}
+	
+	input[type="email"] {
+		width: 190px;
+	}
+	
+	
+	label[for="email"]{
+		font-weight: 100;
+		font-variant: small-caps;
+		font-size: .8em
+	}
+
+/* NAV */
+
+nav {
+		text-align: right;
+		font-size: .9em;
+		font-weight: 200;
+		font-variant: small-caps;
+		width: 40%;
+		
+	}
+	
+	ul {
+		border: none;
+		position: absolute;
+		right: 0;
+		top: 73px;
+
+	}
+	
+	li {
+		display: inline;
+		padding: 8px;
+	}
+	
+
+	/* CONTENT */
+
+	.recordstore {
+		width: 992px;
+		height: 400px;
+		background-color: black;
+		margin: 20px auto;
+		
+	}
+	
+	.words {
+		background-color: black;
+		width: 300px;
+		height: 30px;
+		position: absolute;
+		bottom: 320px;
+		right: 182px;
+		text-align: center;
+		line-height: 30px;
+		color: white;
+
+	}
+	
+	
+	.images {
+		width: 992px;
+		margin: 50px auto;
+	}
+	
+	
+	.left {
+		display: inline-block;
+		width: 31%;
+		height: 170px;
+		margin-right: 1.5%;
+
+	}
+	
+	
+	.center {
+		display: inline-block;
+		width: 31%;
+		height: 170px;
+		margin: 0 1.5%;
+		
+	}
+	
+	
+	.right {
+		display: inline-block;
+		width: 31%;
+		height: 170px;
+		margin-left: 1.5%;
+		
+	}
+	
+
+.footerright {
+	float: right;
+	padding: 5px;
+}
+
+.footerright li {
+	display: inline-block;
+	padding: 0;
+}
