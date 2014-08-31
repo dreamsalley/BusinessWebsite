@@ -99,8 +99,8 @@ h5 {
 	.logo {
 		padding-top: 10px;
 		position: absolute;
-		left: 0;
-		top: 0;
+		left: -60px;
+		top: -50px;
 
 	}
 
@@ -184,7 +184,7 @@ nav {
 		display: inline-block;
 		width: 31%;
 		height: 170px;
-		margin-right: 1.5%;
+		margin-right: auto;
 
 	}
 	
@@ -193,7 +193,7 @@ nav {
 		display: inline-block;
 		width: 31%;
 		height: 170px;
-		margin: 0 1.5%;
+		margin: auto;
 		
 	}
 	
@@ -202,17 +202,13 @@ nav {
 		display: inline-block;
 		width: 31%;
 		height: 170px;
-		margin-left: 1.5%;
+		margin-left: auto;
 		
 	}
 	
-
-.footerright {
-	float: right;
-	padding: 5px;
-}
-
 .footerright li {
-	display: inline-block;
 	padding: 0;
+	display: inline-block;
+	bottom: 0;
+	left: 0;
 }
